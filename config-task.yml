@@ -1,11 +1,11 @@
 # Task Name: (Required) 
-task_name: 'task name'
+task_name: 'File Sharing Example'
 # Task Author: (Required) 
-author: 'Koii'
+author: 'Michel'
 # Task Description: (Required) 
-description: 'description'
+description: 'Please save my cool picture! ;)'
 # Repository URL: (Required)
-repositoryUrl: 'https://github.com/koii-network/task-template' 
+repositoryUrl: 'https://github.com/MichelThieR/koii-task-template.git' 
 # Image URL: (Required) Will be displayed in desktop node
 imageUrl: 'imageUrl'
 # Info URL: (Required) Will be displayed in desktop node
@@ -50,15 +50,8 @@ space: 0.1
 
 # Requirement Tags: (Optional): To add more global variables and task variables, please refer to the type, value, description format shown below.
 requirementsTags:
-  - type: CPU
-    value: '4-core'
-  - type: RAM
-    value: '5 GB'
   - type: STORAGE
-    value: '5 GB'
-  - type: TASK_VARIABLE
-    value: 'TWITTER_PASSWORD'
-    description: 'The password of your volunteer Twitter account.'
+    value: '4 MB'
 
 # Tags: You can select the tags here via https://www.koii.network/docs/develop/command-line-tool/create-task-cli/create-task#tags
 tags: ["AI", "ML"] 
